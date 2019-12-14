@@ -1,6 +1,12 @@
 from pprint import pprint
 import os
 
+'''
+Assumptions:
+1. All paths lead to COM
+2. There are not ghosted planets and orbits
+'''
+
 def getUniquePlanets(orbits):
     planets = set()
     for orbit in orbits:
